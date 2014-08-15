@@ -1,0 +1,134 @@
+\mode<presentation>
+
+%\definecolor{grorange}{RGB}{224,110,47}
+\definecolor{grorange}{RGB}{255,105,5}
+\definecolor{grdarkorange}{RGB}{240,105,5}
+%\definecolor{grgrey}{RGB}{114,112,111}
+\definecolor{grgrey}{RGB}{125,125,125}
+\definecolor{grlightgrey}{RGB}{239,239,239}
+
+\useinnertheme[shadow=true]{rounded}
+
+\setbeamercolor{head_sec}{fg=white,bg=black}
+\setbeamercolor{head_logo}{fg=grorange,bg=black}
+\setbeamercolor{foot_title}{fg=grlightgrey,bg=grlightgrey}
+\setbeamercolor{foot_author}{fg=white,bg=grgrey}
+\setbeamercolor{foot_title}{fg=white,bg=black}
+\setbeamercolor{foot_page}{fg=white,bg=grgrey}
+
+\setbeamertemplate{headline}
+{%
+  \leavevmode%
+  \hbox{
+
+    \hspace{-5pt}
+    \begin{beamercolorbox}[wd=.34\paperwidth,ht=5ex,dp=1.125ex,right]{head_sec}%
+      \usebeamerfont{author in head/foot}\insertsectionhead\hspace{5pt}
+    \end{beamercolorbox}%
+
+    \begin{beamercolorbox}[wd=.34\paperwidth,ht=5ex,dp=1.125ex,left]{head_sec}%
+      \usebeamerfont{author in head/foot}\hspace{5pt}\insertsubsectionhead
+    \end{beamercolorbox}%
+
+    \begin{beamercolorbox}[wd=.333\paperwidth,ht=5ex,dp=1.125ex,right]{head_logo}%
+      \vspace{-2pt}
+      \includegraphics[height=0.5cm]{gnuradio_logo-black.eps}\hspace{8pt}
+    \end{beamercolorbox}%
+  }%
+  \vskip0pt%
+}
+
+\setbeamertemplate{footline}
+{%
+\ifnum \insertpagenumber=1
+
+  \hbox{
+    \hspace{-5pt}
+    \begin{beamercolorbox}[wd=1.0\paperwidth,ht=2.5ex,dp=1.125ex]{foot_title}%
+    \end{beamercolorbox}%
+  }%
+
+\else
+
+  \leavevmode%
+  \hbox{
+    \hspace{-5pt}
+    \begin{beamercolorbox}[wd=.41\paperwidth,ht=2.5ex,dp=1.125ex,center]{foot_author}%
+      \usebeamerfont{author in head/foot}\insertshortauthor \hspace{1pt} \insertshortinstitute
+    \end{beamercolorbox}%
+
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1.125ex,center]{foot_title}%
+      \usebeamerfont{title in head/foot}\insertshorttitle
+    \end{beamercolorbox}%
+
+    \begin{beamercolorbox}[wd=.1\paperwidth,ht=2.5ex,dp=1.125ex,center]{foot_page}%
+      \usebeamerfont{title in head/foot}\insertframenumber\,/\,\inserttotalframenumber
+    \end{beamercolorbox}
+  }%
+  \vskip0pt%
+
+\fi
+}
+
+% ENABLE THIS TO ADD THE SQUARE LOGO TO THE BOTTOM RIGHT HAND CORNER
+% OF EVERY SLIDE
+%\logo{\includegraphics[height=0.75cm]{gnuradio_logo_icon-square.png}}
+
+
+\setbeamercolor{alerted text}{fg=grdarkorange}
+\setbeamercolor{background canvas}{bg=grlightgrey}
+\setbeamercolor{block body alerted}{bg=normal text.bg!90!black}
+%\setbeamercolor{block body}{bg=normal text.bg!90!black}
+%\setbeamercolor{block body example}{bg=normal text.bg!90!black}
+\setbeamercolor{block title alerted}{use={normal text,alerted text},fg=alerted text.fg!75!normal text.fg,bg=normal grgrey}
+%\setbeamercolor{block title example}{use={normal text,example text},fg=example text.fg!75!normal text.fg,bg=normal text.bg!75!black}
+\setbeamercolor{fine separation line}{}
+\setbeamercolor{item projected}{fg=black}
+%\setbeamercolor{palette sidebar primary}{use=normal text,fg=normal text.fg}
+%\setbeamercolor{palette sidebar quaternary}{use=structure,fg=structure.fg}
+%\setbeamercolor{palette sidebar secondary}{use=structure,fg=structure.fg}
+%\setbeamercolor{palette sidebar tertiary}{use=normal text,fg=normal text.fg}
+%\setbeamercolor{section in sidebar}{fg=brown}
+%\setbeamercolor{section in sidebar shaded}{fg=grey}
+%\setbeamercolor{separation line}{}
+%\setbeamercolor{sidebar}{bg=red}
+%\setbeamercolor{sidebar}{parent=palette primary}
+\setbeamercolor{structure}{bg=black, fg=grgrey}
+\setbeamercolor{subsection in sidebar}{fg=brown}
+\setbeamercolor{subsection in sidebar shaded}{fg=grey}
+
+
+% Sets the color of the item bullets
+\setbeamercolor*{item}{fg=grorange, bg=grgrey}
+
+% For table of contents bullets
+\setbeamercolor*{section in toc}{fg=black}
+\setbeamerfont*{section in toc}{size=\large}
+\setbeamerfont*{subsection in toc}{size=\normalsize}
+\setbeamercolor*{section in toc shaded}{fg=black}
+\setbeamercolor*{section number projected}{fg=black, bg=grorange}
+\setbeamercolor*{section number projected shaded}{fg=grgrey, bg=grorange}
+
+
+\setbeamercolor{normal text}{bg=grlightgrey,fg=black}
+
+
+% Set info about the title page
+\setbeamercolor{title}{fg=grorange, bg=grgrey}
+\setbeamercolor{titlelike}{fg=grorange}
+\setbeamerfont*{title}{series=\bfseries,size=\huge}
+
+
+% Frame title fonts and colors
+\setbeamercolor{frametitle}{fg=grorange, bg=grgrey}
+\setbeamerfont*{frametitle}{series=\bfseries,size=\Large}
+
+
+% Item box colors
+\setbeamercolor{block title}{bg=grgrey,fg=grdarkorange}
+
+
+\setbeamerfont{block title}{size={}}
+
+\mode
+<all>

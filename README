@@ -1,7 +1,7 @@
 The logo in this repository is the official logo of the GNU Radio
 project and should be used whenever promoting or explaining GNU Radio.
 
-The logos is owned by Rondeau Research, LLC and is licensed under a
+The logo is owned by Rondeau Research, LLC and is licensed under a
 Creative Commons Attribution-NoDerives (CC BY-ND 2.0) license:
 http://creativecommons.org/licenses/by-nd/2.0/
 
@@ -26,3 +26,11 @@ Logo files:
    The GNU Radio logo without the icon
 
 
+* Beamer Theme
+
+The file beamerthemeGNURadio.sty is a theme file for Beamer/Latex
+presentations that use the GNU Radio logo and color scheme. Any GNU
+Radio-based presentation is encouraged to use this theme. The theme
+uses the gnuradio_logo-black.eps file, so make sure to put both of
+these files into the right location for your Beamer project to find
+them (easiest just to keep them in the directory as your .tex file).
