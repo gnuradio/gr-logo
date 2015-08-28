@@ -1,0 +1,5 @@
+" vim:ft=vim:
+let g:Tex_CompileRule_pdf = 'pdflatex -interaction=nonstopmode $*'
+let g:Tex_FormatDependency_pdf = 'pdf'
+let g:Tex_DefaultTargetFormat = 'pdf'
+TTarget pdf

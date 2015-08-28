@@ -1,0 +1,61 @@
+\documentclass{beamer}
+
+\usetheme{GNURadio}
+\usepackage{palatino}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+
+\title{GNU Radio Slide Template}
+\institute{Author, Affiliation}
+
+\date{GNU Radio Conference 2015}
+
+\graphicspath{{./}}
+\DeclareGraphicsExtensions{.png,.pdf}
+
+% Comment this out to not have a TOC every time you have a \section:
+\AtBeginSection[] {%
+  \begin{frame}
+    \frametitle{Outline}
+    \tableofcontents[currentsection]
+  \end{frame}
+}
+
+\begin{document}
+
+% Title page:
+\frame{\titlepage}
+
+\section{Introduction}
+\begin{frame}
+  \frametitle{This is the \LaTeX\ beamer template}
+  \begin{itemize}
+    \item It is awesome
+    \item<2-> And so orange
+    \item<3-> And we tested it on many projectors
+  \end{itemize}
+\end{frame}
+
+\section{Examples}
+\begin{frame}
+  \frametitle{Stuff}
+  \begin{block}{A Block's Title}
+    Math works too:
+    \begin{equation}
+      y(t) = x(t) * h(t)
+    \end{equation}
+  \end{block}
+  \begin{itemize}
+    \item foo
+    \item bar
+    \item baz
+  \end{itemize}
+  \begin{enumerate}
+    \item one
+    \item two
+  \end{enumerate}
+\end{frame}
+
+\end{document}
