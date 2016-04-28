@@ -1,16 +1,17 @@
 The logo in this repository is the official logo of the GNU Radio
 project and should be used whenever promoting or explaining GNU Radio.
 
-The logo is owned by Rondeau Research, LLC and is licensed under a
+The logo is owned by The GNU Radio Foundation and is licensed under a
 Creative Commons Attribution-NoDerives (CC BY-ND 2.0) license:
 http://creativecommons.org/licenses/by-nd/2.0/
 
-Attribution of the logo should go to GNU Radio, specificially by
-indicating http://gnuradio.org somewhere in the work in which the logo
-is used.
+Attribution of the logo should go to The GNU Radio Foundation,
+specificially by indicating http://gnuradio.org somewhere in the work
+in which the logo is used.
 
 Waiver requests for other uses of the logo can be made to:
-tom at trondeau.com
+info@gnuradio.org
+
 
 Logo files:
  - gnuradio_logo.svg
