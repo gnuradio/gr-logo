@@ -1,0 +1,1 @@
+Twitter card background image
