@@ -2,19 +2,19 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="90"
    height="150"
    id="svg3965"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="gnuradio_logo_icon.svg">
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="gnuradio_logo_icon.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
   <defs
      id="defs3967" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="329.00499"
-     inkscape:cy="26.379746"
+     inkscape:zoom="3.959798"
+     inkscape:cx="128.54191"
+     inkscape:cy="76.392786"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -34,11 +34,12 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:window-width="1920"
-     inkscape:window-height="1176"
-     inkscape:window-x="0"
+     inkscape:window-width="2558"
+     inkscape:window-height="1414"
+     inkscape:window-x="2560"
      inkscape:window-y="24"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     inkscape:pagecheckerboard="0" />
   <metadata
      id="metadata3970">
     <rdf:RDF>
@@ -47,7 +48,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -76,48 +76,6 @@
          id="path3488"
          inkscape:connector-curvature="0"
          style="fill:#ff6905;fill-rule:evenodd" />
-      <text
-         x="195.22275"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3496"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="256.77316"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3506"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="279.70544"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3510"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="344.62241"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3520"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="473.09561"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3538"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="548.49011"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3550"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
-      <text
-         x="687.89447"
-         y="148.5569"
-         class="fil4 fnt0"
-         id="text3570"
-         style="font-size:17.76259804px;font-weight:bold;fill:#969594;fill-rule:evenodd;font-family:Harabara" />
     </g>
   </g>
 </svg>
