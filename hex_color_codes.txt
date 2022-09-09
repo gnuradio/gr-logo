@@ -1,0 +1,3 @@
+#FF6905 orange
+#72706F dark gray
+#B2B0AF light gray
