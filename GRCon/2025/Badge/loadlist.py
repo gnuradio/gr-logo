@@ -9,6 +9,7 @@ parser.add_argument(
 )
 parser.add_argument("total", metavar="total pages", nargs="?", type=int, default=0)
 parser.add_argument("-o", "--output", type=argparse.FileType("w", encoding="utf-8"))
+parser.add_argument("-n", "--no-affiliation", action="store_true", help="Don't show affiliation on badges")
 args = parser.parse_args()
 outlist = []
 with args.in_file as csvfile:
@@ -36,7 +37,7 @@ with args.in_file as csvfile:
         dic = {
             "name": row[name],
             "handle": row[handle],
-            "affiliation": company,
+            "affiliation": company if not args.no_affiliation else "",
         }
         outlist += [dic]
 
