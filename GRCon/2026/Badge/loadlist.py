@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
+import argparse
 import csv
 import json
-import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument(
