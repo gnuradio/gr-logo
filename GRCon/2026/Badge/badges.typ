@@ -36,7 +36,7 @@
 ]
 
 #let rest-pages = state("rest-pages", 0)
-#let extra_pages = 61 // blank badges
+#let extra_pages = 54 // blank badges
 #context {
   let curpage = here().page()
   rest-pages.update(processed.total_pages - curpage)
